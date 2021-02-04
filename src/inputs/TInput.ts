@@ -22,6 +22,7 @@ const TInput = TextInput.extend({
     },
   },
   render(createElement: CreateElement) {
+    console.log("Input");
     const renderFun: (ce: CreateElement) => VNode = this.render;
     return renderFun(createElement);
   },
